@@ -32,6 +32,6 @@ exports.avg = function avg (array) {
   {
     avgSum += array[i];
   }
-  avgSum = avgSum/array.size;
+  avgSum = avgSum/array.length;
   return avgSum;
 }
